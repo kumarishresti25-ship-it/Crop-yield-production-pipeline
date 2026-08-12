@@ -1,4 +1,4 @@
-#  Agricultural Risk & Yield Analytics Platform
+# 🌾 Agricultural Risk & Yield Analytics Platform
 
 An interactive geospatial analytics platform designed to monitor crop health, evaluate drought risks, and forecast agricultural productivity using satellite imagery and weather time-series data.
 
@@ -8,25 +8,27 @@ An interactive geospatial analytics platform designed to monitor crop health, ev
 
 ---
 
-# Key Features
+##  Key Features
 
- Vegetation Index Tracking (NDVI/EVI): Computes and visualizes normalized difference vegetation indices over time to monitor plant health and growth cycles.
- Drought Risk Probability Scoring: Evaluates environmental factors to provide real-time drought probability metrics across major farming regions.
- Yield Forecasting & Confidence Intervals: Predicts crop yields (tons/hectare) alongside statistical confidence bounds using feature-engineered regression models.
- Multi-Region Coverage: Built-in support for analyzing specific agricultural belts and zones across India (including Punjab, Bihar, Jharkhand, Chhattisgarh, Maharashtra, and more).
-
----
-
-# Tech Stack
-Frontend & Dashboard: Streamlit
-Machine Learning & Analytics: Scikit-Learn (Random Forest Regressor), NumPy, Pandas
-Geospatial Processing: Rasterio, Earthpy
-Data Visualization: Matplotlib
+* **Vegetation Index Tracking (NDVI/EVI):** Computes and visualizes normalized difference vegetation indices over time to monitor plant health and growth cycles.
+* **Drought Risk Probability Scoring:** Evaluates environmental factors to provide real-time drought probability metrics across major farming regions.
+* **Yield Forecasting & Confidence Intervals:** Predicts crop yields (tons/hectare) alongside statistical confidence bounds using feature-engineered regression models.
+* **Multi-Region Coverage:** Built-in support for analyzing specific agricultural belts and zones across India (including Punjab, Bihar, Jharkhand, Chhattisgarh, Maharashtra, and more).
 
 ---
 
-# Project Structure
+##  Tech Stack
 
+* **Frontend & Dashboard:** Streamlit
+* **Machine Learning & Analytics:** Scikit-Learn (Random Forest Regressor), NumPy, Pandas
+* **Geospatial Processing:** Rasterio, Earthpy
+* **Data Visualization:** Matplotlib
+
+---
+
+##  Project Structure
+
+```text
 Crop-Yield-Prediction-Pipeline/
 │
 ├── app.py                  # Main Streamlit dashboard interface
